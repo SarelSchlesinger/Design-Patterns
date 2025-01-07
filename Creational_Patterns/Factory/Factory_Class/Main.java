@@ -8,6 +8,5 @@ public class Main {
         Animal_Factory animal_factory = new Animal_Factory();
         client.getItsAnimal()[0] = animal_factory.createAnimal("CAT");
         client.getItsAnimal()[1] = animal_factory.createAnimal("DOG");
-
     }
 }

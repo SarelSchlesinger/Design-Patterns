@@ -13,7 +13,7 @@ public class Animal_Factory {
                 animal_instance = new Cat();
                 System.out.println("new instance of cat");
             }
-            default -> throw new IllegalStateException("Unexpected value: " + animal);
+            default -> throw new IllegalArgumentException("Unexpected value: " + animal);
         }
         return animal_instance;
     }

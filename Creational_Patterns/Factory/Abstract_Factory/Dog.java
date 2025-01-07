@@ -1,4 +1,8 @@
 package Creational_Patterns.Factory.Abstract_Factory;
 
-public class Dog implements Animal {
+abstract class Dog implements Animal {
+    @Override
+    public void make_noise() {
+        System.out.println("Woof");
+    }
 }
